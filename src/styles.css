@@ -24,11 +24,18 @@ p{
     line-height: 30px;
 }
 
+img{
+    width: 400px;
+    border-radius: 10px;
+}
+.col{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .hero{
     background: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
 }
 .hero p{
         font-size: 36px;
@@ -69,6 +76,15 @@ p{
         border-radius: 4px;
 
 }
+.my-photos img{
+    border-radius: 0px;
+    padding: 10px;
+}
+.wide-image img {
+    width: 60%;
+    border-radius: 0px;
+}
+
 @media (max-width: 900px){
     h1{
         font-size:44px;
