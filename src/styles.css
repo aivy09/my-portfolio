@@ -19,6 +19,9 @@ h1{
 h2{
     font-size: 60px;
 }
+h4{
+    font-size: 48px;
+}
 p{
     font-size: 16px;
     line-height: 30px;
@@ -105,11 +108,42 @@ color: #272142;
 transition: all 100ms ease-in-out;}
 
 nav a:hover,
-nav li.active a{
+nav li.active a,
+footer .email-link:hover{
     color: var(--primary-color);
 }
 nav p{
     font-weight: bold;
+}
+
+footer .email-link{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+footer .social-links a{
+    margin: 0 20px;
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+}
+footer .social-links a:hover{
+    color: white;
+    background: var(--primary-color);
+}
+
+footer .contact-box{
+    background: var(--secondary-color);
+    padding: 30px 60px;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+footer .contact-box p{
+    margin: 0;
 }
 
 @media (max-width: 900px){
@@ -133,6 +167,16 @@ nav p{
     nav p{
         display: none;
     }
+    footer .contact-box {
+        padding: 30px;
+    }
+    h4{
+        font-size: 26px;
+    }
+    .btn{
+        font-size: 18px;
+    }
+
 }
 
 .content-container{
