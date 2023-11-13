@@ -175,6 +175,10 @@ footer .contact-box p{
     .btn{
         font-size: 18px;
     }
+    .about-img{
+        max-width: 300px;
+        margin: 0 30px
+    }
 
 }
 
